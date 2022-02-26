@@ -59,3 +59,7 @@ Remueve el ultimo commit, y borra los cambios de los archivos modificados.
 >git help comando-ayuda
 
 Muestra las posibles variantes del comando indicado.
+
+> git revert HEAD | git revert commit-a-eliminar
+
+Este comando permite deshacer un commit ya publicado (git push). Para esto crea un commit que elimina los cambios indicados en el commit a eliminar (HEAD o commit-a-eliminar).

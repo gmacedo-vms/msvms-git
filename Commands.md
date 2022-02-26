@@ -49,6 +49,10 @@ Permite obtener el historico de los commits realizados. La variante --oneline mu
 Remueve el o los archivos contenidos en la zona stage, mas no elimina los cambios realizados en el o los archivos.
 Remueve git add
 
+>git reset commit-id | git reset --mixed commit-id
+
+Retorna el codigo a un commit en especifico y mantien los cambios, retira los archivos modificados de la zona del stage.
+
 >git reset --soft HEAD~1 | git reset --soft commit-id
 
 Remueve el ultimo commit, pero mantiene los cambios de los archivos modificados. La variante commit-id se ubica en el commit indicado y mantiene los cambios.
@@ -81,3 +85,6 @@ El comando permite cambiar el nombre de un archivo, luego de esto git seguira en
 
 Elimina o remueve un archivo y permite que esta accion se vea reflejada en el historico de cambios.
 
+>git reflog
+
+Lista el historico de cambios y acciones realizadas.

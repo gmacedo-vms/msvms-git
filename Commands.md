@@ -76,3 +76,7 @@ Lista los alias creados en Git
 
 El comando permite cambiar el nombre de un archivo, luego de esto git seguira en supervision del control de versiones.
 
+>git rm nombre-archivo.extension
+
+Elimina o remueve un archivo y permite que esta accion se vea reflejada en el historico de cambios.
+

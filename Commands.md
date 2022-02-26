@@ -63,3 +63,12 @@ Muestra las posibles variantes del comando indicado.
 > git revert HEAD | git revert commit-a-eliminar
 
 Este comando permite deshacer un commit ya publicado (git push). Para esto crea un commit que elimina los cambios indicados en el commit a eliminar (HEAD o commit-a-eliminar).
+
+>git config --global alias.<letra> "<comando>" 
+
+Permite utilizar un comando a través de la asignación de un alias. Donde comando es por ejemplo, status, log u otro y letra es s, l o cualquiera que desee asignar. 
+
+>git config --get-regexp alias
+
+Lista los alias creados en Git
+

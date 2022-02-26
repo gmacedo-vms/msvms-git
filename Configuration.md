@@ -13,3 +13,5 @@ Configuracion en un solo repositorio
 
 Los pasos ejecutados se realizan una sola vez por persona que trabajara en dicha maquina.
 Si otra persona quisiera trabajar en esta misma máquina, se vuelven a repetir los comandos ejecutados arriba.
+
+[View Commands](Commands.md)

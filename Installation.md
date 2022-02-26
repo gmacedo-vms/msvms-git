@@ -24,3 +24,5 @@ sudo apt-get install git
 
 Saber la version:
 git --version
+
+[View Configuration](Configuration.md)

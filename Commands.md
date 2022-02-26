@@ -26,7 +26,9 @@ Confirma los cambios de los archivos que se encuentran en el stage y genera un r
 
 Permite modificar el mensaje de un commit local que aun no ha sido publicado (git push). Tambien permite agregar cambios al ultimo commit. Agrega o modifica archivos y ejecuta el comando nuevamente.
 
+>git diff | git diff nombre-archivo | git diff ruta-archivo
 
+Este comando permite ver las diferencias entre el archivo actual (aquel que sufrió cambios) y la versión de este mismo archivo que se guardo en el ultimo commit.
 
 
 

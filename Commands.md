@@ -56,4 +56,6 @@ Remueve el ultimo commit, pero mantiene los cambios de los archivos modificados.
 
 Remueve el ultimo commit, y borra los cambios de los archivos modificados.
 
+>git help comando-ayuda
 
+Muestra las posibles variantes del comando indicado.

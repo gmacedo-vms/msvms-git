@@ -40,5 +40,7 @@ Revierte cambios guardados con Control + S
 Revierte el o los archivos a la version del ultimo commit.
 Revierte cambios guardados con Control + S
 
+>git log | git log --oneline
 
+Permite obtener el historico de los commits realizados. La variante --oneline muestra el historico de commits en una sola linea.
 

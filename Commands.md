@@ -72,3 +72,7 @@ Permite utilizar un comando a través de la asignación de un alias. Donde coman
 
 Lista los alias creados en Git
 
+>git mv nombre-archivo.extension nuevo-nombre-archivo.extension
+
+El comando permite cambiar el nombre de un archivo, luego de esto git seguira en supervision del control de versiones.
+

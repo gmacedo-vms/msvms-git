@@ -30,5 +30,15 @@ Permite modificar el mensaje de un commit local que aun no ha sido publicado (gi
 
 Este comando permite ver las diferencias entre el archivo actual (aquel que sufrió cambios) y la versión de este mismo archivo que se guardo en el ultimo commit.
 
+>git checkout .
+
+Permite revertir todos los cambios no guardados en el stage, es decir regresa el codigo fuente al ultimo commit.
+Revierte cambios guardados con Control + S
+
+>git checkout nombre-archivo.extension | git checkout ruta-archivo.extension | git checkout .extension | git checkout carpeta/ | git checkout carpeta/*.extension
+
+Revierte el o los archivos a la version del ultimo commit.
+Revierte cambios guardados con Control + S
+
 
 

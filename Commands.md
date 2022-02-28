@@ -104,6 +104,7 @@ Este archivo deb ubicarse al nivel de la carpte .git. Su contnido debe tener los
 - Archivos con la misma extension: **.extesion
 
 [View gitignore generator online](https://www.toptal.com/developers/gitignore)
+
 [View gitignore template files](https://github.com/github/gitignore)
 
 > git branch nombre-rama
@@ -191,3 +192,11 @@ Descarga el repositorio ubicado en github en tu dispositivo local.
 > git push origin nombre-rama
 
 Envia los cambios locales al repositorio ubicado en github en la rama indicada (nombre-rama).
+
+> git fetch
+
+Recupera informacion de los metadatos para comprobar si existe algun cambio disponible en tu repositorio ubicado en github.
+
+> git diff ...origin
+
+Muestra la diferencia entre los archivos locales y los archivos ubicados en el repositorio de github.

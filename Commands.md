@@ -105,3 +105,24 @@ Este archivo deb ubicarse al nivel de la carpte .git. Su contnido debe tener los
 
 [View gitignore generator online](https://www.toptal.com/developers/gitignore)
 [View gitignore template files](https://github.com/github/gitignore)
+
+> git branch nombre-rama
+
+Crea una rama a partir de la ram tomada como base, es decir de la cual se ejecuto el comando. Asimismo, esta nueva rama tendra todos los commit ejecutados en la rama origen.
+
+> git branch | git branch -a | git branch -r
+
+Lista las ramas del repositorio. La variante -a lista las ramas locales y la variante -r las ramaas remotas.
+
+> git checkout nombre-rama
+
+Permite ubicarse a la rama que se indique.
+
+> git checkout -b nombre-rama
+
+Crea una rama y se ubica en la rama creada.
+
+> git branch -d nombre-rama
+
+Elimina una rama creada.
+

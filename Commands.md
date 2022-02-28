@@ -180,11 +180,14 @@ Muestra los cambios realizados en la etiqueta o en un commit id.
 
 Sincroniza tu repositorio local con el que se encuentra en github (reposiotorio-git.git).
 
-> git push -u origin master
+> git push -u origin nombre-rama
 
-Envia los cambios locales al repositorio de github.
+Envia los cambios locales al repositorio ubicado en github en la rama indicada (nombre-rama).
 
 > git clone repositorio-git.git
 
 Descarga el repositorio ubicado en github en tu dispositivo local.
 
+> git push origin nombre-rama
+
+Envia los cambios locales al repositorio ubicado en github en la rama indicada (nombre-rama).

@@ -77,6 +77,10 @@ Permite utilizar un comando a través de la asignación de un alias. Donde coman
 
 Lista los alias creados en Git
 
+>git config --global --unset alias.tu-alias
+
+Con el comando anteior se puede eliminar un alias, para esto se debe reemplazar tu-alias con el valor que hayas asignado al alias que desees eliminar.
+
 >git mv nombre-archivo.extension nuevo-nombre-archivo.extension
 
 El comando permite cambiar el nombre de un archivo, luego de esto git seguira en supervision del control de versiones.

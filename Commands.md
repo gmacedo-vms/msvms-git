@@ -175,3 +175,13 @@ Crea un etiqueta a un commit anterior y asigna un mensaje.
 > git show nombre.etiqueta | git show commit-id
 
 Muestra los cambios realizados en la etiqueta o en un commit id.
+
+> git remote add origin repositorio-git.git
+
+Sincroniza tu repositorio local con el que se encuentra en github (reposiotorio-git.git).
+
+> git push -u origin master
+
+Envia los cambios locales al repositorio de github.
+
+

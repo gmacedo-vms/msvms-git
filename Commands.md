@@ -213,3 +213,11 @@ Para esto ver el siguiente apartado: [Fork a repo](https://docs.github.com/en/ge
 
 Fork desde la linea de comando con github cli: [GitHub Fork](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/command-line-GitHub-fork-CLI-terminal-shell)
 
+> pull request
+
+Envia los cambios de un repositorio a otro. Esto pueden contener modificacion de archivos, capertas, archivos nuevos o carpetas nuevas, como tambien eliminacion de ambos.
+Para realizar un Git Pull Request con ayuda de GitHub revisar: [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
+
+Git pull request desde la consola de Git revisar: [git-request-pull Documentation](https://git-scm.com/docs/git-request-pull)
+
+Para realizar un Git Pull Request con ayuda de Bitbucket revisar: [Pull-requests | Atlassian Git Tutorial](https://www.atlassian.com/es/git/tutorials/making-a-pull-request)

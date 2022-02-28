@@ -200,3 +200,8 @@ Recupera informacion de los metadatos para comprobar si existe algun cambio disp
 > git diff ...origin
 
 Muestra la diferencia entre los archivos locales y los archivos ubicados en el repositorio de github.
+
+> git pull
+
+Descarga los cambios que se ubican en el repositorio ubicado en github al repositorio local del dispositivo.
+

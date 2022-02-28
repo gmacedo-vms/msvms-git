@@ -184,4 +184,7 @@ Sincroniza tu repositorio local con el que se encuentra en github (reposiotorio-
 
 Envia los cambios locales al repositorio de github.
 
+> git clone repositorio-git.git
+
+Descarga el repositorio ubicado en github en tu dispositivo local.
 

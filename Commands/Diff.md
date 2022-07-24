@@ -1,4 +1,4 @@
- ## Git Diff
+## Git Diff
 
 > git diff | git diff nombre-archivo | git diff ruta-archivo
 

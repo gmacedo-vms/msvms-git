@@ -1,4 +1,4 @@
-## Git Commit 
+## Git Commit
 
 > git commit -m "mensaje descriptivo"
 

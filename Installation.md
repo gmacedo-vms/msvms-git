@@ -26,4 +26,5 @@ Saber la version:
 git --version
 
 [View Configuration](Configuration.md)
+
 [View Introduction](Introduction.md)

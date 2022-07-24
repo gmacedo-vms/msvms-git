@@ -15,3 +15,5 @@ Los pasos ejecutados se realizan una sola vez por persona que trabajara en dicha
 Si otra persona quisiera trabajar en esta misma máquina, se vuelven a repetir los comandos ejecutados arriba.
 
 [View Commands](Commands.md)
+
+[View Installation](Installation.md)

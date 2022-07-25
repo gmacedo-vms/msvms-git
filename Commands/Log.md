@@ -26,7 +26,21 @@ Muestro los commits que tienen como mensaje la palabra clave.
 
 > git log --graph
 
+> git log --graph --pretty=oneline
+
+> git log --graph --oneline
+
+> git log --all --decorate --oneline --graph
+
+> git log --all --graph --since=2022-01-01 --oneline
+
+> git log --all --graph --since=2022-01-01
+
 > git log --abbrev-commit | git log --abbrev-commit --oneline
+
+> git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+
+> git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 
 [View Command Init](Init.md)
 

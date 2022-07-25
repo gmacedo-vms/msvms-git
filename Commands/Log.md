@@ -4,6 +4,12 @@
 
 Permite obtener el historico de los commits realizados. La variante --oneline muestra el historico de commits en una sola linea y la variante -n indica la cantidad de commits a visualizar.
 
+> git log -n <limit>
+
+> git log -p
+
+> git log [file]
+
 > git log origin/nombre-rama..HEAD
 
 Ver los commits pendiente de subir al repositorio de github en la rama indicada (nombre-rama).
@@ -15,6 +21,12 @@ Mustra los cambios realizados en los commits en donde se modifico un determinado
 > git log --follow --oneline [filename]
 
 Mustra los commits en donde se modifico un determinado archivo.
+
+> git log --author="<pattern>"
+
+> git log --grep='palabra-clave'
+
+> git log --since="[0000-00-00]" --until="[0000-00-00]"
 
 > git log --all --grep='palabra-clave'
 
@@ -30,6 +42,8 @@ Muestro los commits que tienen como mensaje la palabra clave.
 
 > git log --graph --oneline
 
+> git log --graph --decorate --oneline
+
 > git log --all --decorate --oneline --graph
 
 > git log --all --graph --since=2022-01-01 --oneline
@@ -41,6 +55,9 @@ Muestro los commits que tienen como mensaje la palabra clave.
 > git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 
 > git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+
+> git log -n <limit>
+
 
 [View Command Init](Init.md)
 

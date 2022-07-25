@@ -12,7 +12,7 @@ Agregar los cambios de los archivos modificados al Stage (no archivos nuevos) y 
 
 Permite modificar el mensaje de un commit local que aun no ha sido publicado (git push). Tambien permite agregar cambios al ultimo commit. Agrega o modifica archivos y ejecuta el comando nuevamente.
 
-> git commit -no-edit --amend
+> git commit --amend --no-edit
 
 Añade más archivos al último commit sin escribir o editar el mensaje del commit.
 
